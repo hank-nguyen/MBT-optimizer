@@ -20,7 +20,7 @@ python3 op_main.py
 
 ### Performance on different Datasets and Models
 ```
-python3 mdel_main.py
+python3 model_main.py
 ```
 ![alt text][logo3]
 
