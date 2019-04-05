@@ -1,6 +1,7 @@
 
 ### This repository is accompanying with [paper](https://arxiv.org/pdf/1808.05160.pdf):
-### BACKTRACKING GRADIENT DESCENT METHOD FOR GENERALC1 FUNCTIONS, WITH APPLICATIONS TO DEEP LEARNING
+### Backtracking Gradient Descent Method for General C1 Functions with Applications to Deep Learning, Tuyen Trung Truong and Tuan Hang Nguyen
+
 #### Automatic Learning Rate Finder using Backtracking Line Search for Mini-batch
 #### Automatic Training Pipeline using different Models on Cifar10 and Cifar100: MBT-GD, MBT-MMT, MBT-NAG
 #### Forked and inspired by https://github.com/kuangliu/pytorch-cifar for Pytorch Cifar
