@@ -1,8 +1,10 @@
 weights/
 data/
 LOG/
+history/
 draft/
 backup/
+__pycache__/
 log.py
 *.avi
 *.mp4
@@ -12,7 +14,6 @@ log.py
 *.pickle
 *.txt
 *.csv
-*.png
 *.jpg
 *.zip
 *.tar
