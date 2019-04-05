@@ -2,8 +2,8 @@
 ### This repository is accompanying with [paper](https://arxiv.org/pdf/1808.05160.pdf):
 ### Backtracking Gradient Descent Method for General C1 Functions with Applications to Deep Learning, Tuyen Trung Truong and Tuan Hang Nguyen
 
-#### Automatic Learning Rate Finder using Backtracking Line Search for Mini-batch
-#### Automatic Training Pipeline using different Models on Cifar10 and Cifar100: MBT-GD, MBT-MMT, MBT-NAG
+#### Automatic Learning Rate Finder using Backtracking Line Search for Mini-batch.
+#### Automatic Training Pipeline using different Models on Cifar10 and Cifar100, improvements for Gradient Descent (GD), Momentum (MMT), Nesterov Accelerated Gradient(NAG) by Minibatch Two-way Backtracking (MBT): MBT-GD, MBT-MMT, MBT-NAG
 #### Forked and inspired by https://github.com/kuangliu/pytorch-cifar for Pytorch Cifar
 #### Forked and inspired by https://github.com/davidtvs/pytorch-lr-finder for learning rate finder framework
 
