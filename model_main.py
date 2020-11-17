@@ -54,7 +54,8 @@ trainloader, testloader, num_batches = dataset(cifar_dataset, batch_size)
 criterion = nn.CrossEntropyLoss()
 all_history = {}
 
-nets = ['ResNet18', 'MobileNetV2','SENet18', 'PreActResNet18', 'DenseNet121']
+# nets = ['ResNet18', 'MobileNetV2','SENet18', 'PreActResNet18', 'DenseNet121', 'LeNet']
+nets = ['LeNet']
 
 # Loop for model architetures
 for net_name in nets:
@@ -63,6 +64,7 @@ for net_name in nets:
     elif net_name == 'SENet18'          : net =  SENet18(num_classes=num_classes)
     elif net_name =='PreActResNet18'    : net = PreActResNet18(num_classes=num_classes)
     elif net_name =='DenseNet121'       : net = DenseNet121(num_classes=num_classes)
+    elif net_name == 'LeNet'            : net = lenet(num_classes=num_classes)
     
     print('Model:',net_name)
     print('Number of parameters:',count_parameters(net),'Numbers of Layers:', len(list(net.parameters())))
